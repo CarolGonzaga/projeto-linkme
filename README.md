@@ -1,6 +1,6 @@
 # Projeto - Link Me
 - Meu **Sexto** Projeto 
-- Site com os links dos meus projetos.
+- Plataforma para listar todos os meus projetos e suas respectivas informações.
 
 <br/>
 
