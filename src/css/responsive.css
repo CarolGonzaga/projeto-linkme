@@ -36,12 +36,20 @@
     .link {
         grid-template-columns: 1fr 3fr;
     }
+
+    footer {
+        max-height: 10%;
+    }
 }
 
 @media (max-width: 600px) { 
     
     html {
         font-size: 13pt;
+    }
+
+    body {
+        max-height: 100vh;
     }
 
     main {
@@ -56,18 +64,27 @@
     header {
         margin: 0;
         padding: 10px;
+        max-height: 30%;
+    }
+
+    .profile-picture {
+        width: 90px;
     }
 
     .username {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    .description {
+        font-size: 0.6em;
     }
 
     hr {
-        margin: 1rem 0 0 0;
+        margin: .7rem 0 0 0;
     }
 
     .links {
-        max-height: 50%;
+        max-height: 60%;
     }
 
     .link {
@@ -77,7 +94,7 @@
         align-items: center;
         gap: 10px;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
     }
 
     .text .badges {
@@ -85,6 +102,25 @@
         align-items: center;
         width: 100%;
     }
+
+    .text > p {
+        font-size: .7rem;
+    }
+
+    footer {
+        max-height: 10%;
+        justify-content: center;
+    }
+
+    footer .contact {
+        margin-top: 10px;
+    }
+
+    footer .direitos {
+        font-size: .6rem;
+    }
+
+    
     
 }
 

@@ -147,18 +147,29 @@ hr {
 
 footer {
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+    padding-top: 10px;
 }
 
-footer > a {
+footer .contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .contact > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3B185F;
-    padding: 10px;
-    border-radius: 50%;
     font-size: 1.5em;
+}
+
+footer .direitos {
+    font-size: .8rem;
+    color: #FEC260;
 }
