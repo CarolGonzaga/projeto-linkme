@@ -2,7 +2,6 @@
         
     html {
         font-size: 11pt;
-        max-width: 100vh;
         width: 100vw;
         overflow-y: hidden;
     }
@@ -54,7 +53,7 @@
 
     main {
         max-width: 100%;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     .container {
@@ -63,12 +62,18 @@
 
     header {
         margin: 0;
-        padding: 10px;
-        max-height: 30%;
+        max-height: none;
+        height: auto;
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .profile-picture {
         width: 90px;
+        margin: 0;
     }
 
     .username {
@@ -84,7 +89,10 @@
     }
 
     .links {
-        max-height: 60%;
+        max-height: none;
+        height: auto;
+        padding: 20px;
+        margin: 5px;
     }
 
     .link {
@@ -97,23 +105,31 @@
         padding: 10px;
     }
 
+    .btn img {
+        width: 60px;
+    }
+
+    .text > h2 {
+        font-size: .9rem;
+    }
+    
+    .text > p {
+        font-size: .7rem;
+    }
+
     .text .badges {
         justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-    .text > p {
-        font-size: .7rem;
-    }
-
     footer {
-        max-height: 10%;
-        justify-content: center;
+        max-height: none;
+        height: auto;
     }
 
     footer .contact {
-        margin-top: 10px;
+        margin: .7rem 0 0 0;
     }
 
     footer .direitos {
