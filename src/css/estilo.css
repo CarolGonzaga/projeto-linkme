@@ -102,6 +102,8 @@ hr {
 .btn {
     background-color: #3B185F;
     border-radius: 50%;
+    width: 64px;
+    height: 64px;
 }
 
 .btn img {
@@ -134,10 +136,15 @@ hr {
 .badges li {
     display: flex;
     justify-content: center;
+    align-items: end;
     background-color: #A12568;
     padding: 5px;
     border-radius: 5px;
     gap: 5px;
+}
+
+.badges i {
+    color: #FFF;
 }
 
 .badges span {
