@@ -10,12 +10,16 @@ const linguagens = [
     {
         tipo: "JavaScript",
         classeIcon: "fa-brands fa-square-js"
+    },
+    {
+        tipo: "TypeScript",
+        classeIcon: "fa-solid fa-code"
     }
 ]
 
 const projetos = [
     {
-        nome: "Projeto I - Arcade",
+        nome: "Projeto - Arcade",
         descricao: "Site fictício de uma loja de conserto de consoles",
         link: "https://carolgonzaga.github.io/projeto-arcade/",
         imagem: "./src/imagens/maquina-de-arcade.png",
@@ -24,7 +28,7 @@ const projetos = [
 
     },
     {
-        nome: "Projeto II - Personal Page",
+        nome: "Projeto - Personal Page",
         descricao: "Site currículo pessoal",
         link: "https://carolgonzaga.github.io/projeto-curriculo/",
         imagem: "./src/imagens/carteira-de-identidade.png",
@@ -32,7 +36,7 @@ const projetos = [
         linguagem: [linguagens[0], linguagens[1]]
     },
     {
-        nome: "Projeto III - Mortal Fight in Turns",
+        nome: "Projeto - Mortal Fight in Turns",
         descricao: "Jogo de luta baseado em turnos",
         link: "https://carolgonzaga.github.io/projeto-mortal-fight/",
         imagem: "./src/imagens/batalha.png",
@@ -40,7 +44,7 @@ const projetos = [
         linguagem: [linguagens[0], linguagens[1], linguagens[2]]
     },
     {
-        nome: "Projeto IV - Final Fantasy VIII",
+        nome: "Projeto - Final Fantasy VIII",
         descricao: "Site com a ficha dos personagens de Final Fantasy VIII",
         link: "https://carolgonzaga.github.io/projeto-finalfantasy/",
         imagem: "./src/imagens/chocobo.png",
@@ -48,7 +52,7 @@ const projetos = [
         linguagem: [linguagens[0], linguagens[1], linguagens[2]]
     },
     {
-        nome: "Projeto V - PokeGendex",
+        nome: "Projeto - PokeGendex",
         descricao: "Site com a listagem de Pokémons Geração I",
         link: "https://carolgonzaga.github.io/projeto-pokedex/",
         imagem: "./src/imagens/cinema.png",
@@ -56,7 +60,7 @@ const projetos = [
         linguagem: [linguagens[0], linguagens[1], linguagens[2]]
     },
     {
-        nome: "Projeto VI - Ping-Pong",
+        nome: "Projeto - Ping-Pong",
         descricao: "Jogo de PingPong - Usuário vs Máquina",
         link: "https://carolgonzaga.github.io/projeto-pingpong/",
         imagem: "./src/imagens/ping-pong.png",
@@ -64,13 +68,21 @@ const projetos = [
         linguagem: [linguagens[0], linguagens[1], linguagens[2]]
     },
     {
-        nome: "Projeto VII - Senhador",
+        nome: "Projeto - Senhador",
         descricao: "Site gerador de senhas",
         link: "https://carolgonzaga.github.io/projeto-senhador/",
         imagem: "./src/imagens/lock.png",
         descImagem: "Imagem de um cadeado fechado",
         linguagem: [linguagens[0], linguagens[1], linguagens[2]]
     },
+    {
+        nome: "Projeto - Trunfo do Terror",
+        descricao: "Jogo de Cartas com temática de Terror",
+        link: "https://carolgonzaga.github.io/projeto-trunfodoterror/",
+        imagem: "./src/imagens/ghost.png",
+        descImagem: "Imagem de um cadeado fechado",
+        linguagem: [linguagens[0], linguagens[1], linguagens[3]]
+    }
 ]
 
 const lista = document.querySelector("#lista-projetos")
